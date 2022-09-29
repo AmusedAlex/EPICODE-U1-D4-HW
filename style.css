@@ -15,6 +15,14 @@ body {
   overflow: hidden;
 }
 
+#total-card:hover #inside-elements {
+  transform: translateY(100px);
+}
+
+#total-card:hover #save-button {
+  transform: translateY(-100px);
+}
+
 #card-overlay {
   position: absolute;
   top: 0;
@@ -40,6 +48,7 @@ body {
   text-align: center;
   padding: 1em;
   font-weight: bold;
+  transition: transform 3s;
 }
 
 #save-button {
@@ -74,23 +83,25 @@ body {
 }
 
 #upload-button {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.75);
   width: 10%;
   height: 2.5em;
-  border-radius: 50px;
+  border-radius: 50%;
   margin-left: 0.5em;
   margin-right: 0.5em;
   padding-top: 0.9em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  transition: transform 3s;
 }
 
 #options-button {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.75);
   width: 10%;
-  border-radius: 50px;
+  border-radius: 50%;
   margin-left: 0.5em;
   padding-top: 0.9em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  transition: transform 3s;
 }
