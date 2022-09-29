@@ -16,15 +16,20 @@ body {
 }
 
 #total-card:hover #inside-elements {
-  transform: translateY(100px);
+  transform: translateY(-5em);
 }
 
 #total-card:hover #save-button {
-  transform: translateY(-100px);
+  transform: translateY(6em);
+}
+
+#total-card:hover #card-overlay {
+  display: block;
 }
 
 #card-overlay {
   position: absolute;
+  display: none;
   top: 0;
   bottom: 0;
   left: 0;
@@ -42,13 +47,13 @@ body {
   position: absolute;
   display: flex;
   top: auto;
-  bottom: 0;
+  bottom: -5em;
   left: 0;
   right: 0;
   text-align: center;
   padding: 1em;
   font-weight: bold;
-  transition: transform 3s;
+  transition: transform 1s;
 }
 
 #save-button {
@@ -56,17 +61,13 @@ body {
   background-color: red;
   border-radius: 50px;
   color: white;
-  top: 1em;
+  top: -5em;
   right: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
-  transition: transform 3s;
-}
-
-#save-button:hover {
-  transform: translateY(-100px);
+  transition: transform 1s;
 }
 
 #go-to-page-button {
