@@ -34,7 +34,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #total-card img {
@@ -58,7 +58,7 @@ body {
 
 #save-button {
   position: absolute;
-  background-color: red;
+  background-color: #e60022;
   border-radius: 50px;
   color: white;
   top: -5em;
@@ -68,6 +68,7 @@ body {
   padding-left: 1em;
   padding-right: 1em;
   transition: transform 1s;
+  font-size: 16pt;
 }
 
 #go-to-page-button {
